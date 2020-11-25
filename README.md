@@ -1,8 +1,8 @@
-#### Simple API "foodchecker"
+# Simple API "foodchecker"
 
 ## usage:
 
-# Adding memeber:
+### Adding memeber:
 POST `localhost:3016/member`
 
 ```
@@ -12,12 +12,12 @@ POST `localhost:3016/member`
 }
 ```
 
-Removing member:
+###  Removing member:
 DELETE `localhost:3016/member/NAME`
 example:
 DELETE `localhost:3016/member/Robert`
 
-Adding or removing Allergen to chosen member:
+###  Adding or removing Allergen to chosen member:
 PUT/DELETE `localhost:3016/member/allergen`
 with example json:
 ```
@@ -26,10 +26,10 @@ with example json:
 }
 ```
 
-You can get list of Allergens by:
+###  You can get list of Allergens by:
 GET `localhost/allergens`
 
-Getting list of memebers:
+###  Getting list of memebers:
 `localhost/members`
 ```
 [
@@ -60,19 +60,19 @@ Getting list of memebers:
 ]
 ```
 
-Adding product:
+###  Adding product:
 POST `localhost:3016/product`
 
 ```
 {"barcode":"5050083516313"}
 ```
 
-Removing product:
+###  Removing product:
 DELETE `localhost:3016/product/BARCODE`
 example:
 DELETE `localhost:3016/member/5050083516313`
 
-Getting list of products:
+###  Getting list of products:
 `localhost:3016/products`
 example result:
 ```
