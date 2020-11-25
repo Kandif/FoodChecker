@@ -2,7 +2,7 @@
 
 ## usage:
 
-Adding memeber:
+# Adding memeber:
 POST `localhost:3016/member`
 
 ```
