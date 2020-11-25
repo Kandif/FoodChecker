@@ -1,6 +1,6 @@
-####Simple API "foodchecker"
+#### Simple API "foodchecker"
 
-##usage:
+## usage:
 
 Adding memeber:
 POST `localhost:3016/member`
