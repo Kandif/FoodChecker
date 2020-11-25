@@ -1,4 +1,5 @@
-## Simple API "foodchecker"
+
+# Simple API "foodchecker"
 
 ## usage:
 
