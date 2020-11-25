@@ -3,7 +3,7 @@
 ##usage:
 
 Adding memeber:
-`localhost:3016/member`
+POST `localhost:3016/member`
 
 ```
 {
@@ -13,16 +13,24 @@ Adding memeber:
 ```
 
 Removing member:
-`localhost:3016/member/NAME`
+DELETE `localhost:3016/member/NAME`
 example:
-`localhost:3016/member/Robert`
+DELETE `localhost:3016/member/Robert`
+
+Adding or removing Allergen to chosen member:
+PUT/DELETE `localhost:3016/member/allergen`
+with example json:
+```
+{
+    "allergens":["milk","eggs"]
+}
+```
+
+You can get list of Allergens by:
+GET `localhost/allergens`
 
 Getting list of memebers:
-`localhost:3016/members`
-example result:
-
-Getting list of memebers:
-`localhost:3016/members`
+`localhost/members`
 ```
 [
   {
@@ -51,4 +59,40 @@ Getting list of memebers:
   }
 ]
 ```
+
+Adding product:
+POST `localhost:3016/product`
+
+```
+{"barcode":"5050083516313"}
+```
+
+Removing product:
+DELETE `localhost:3016/product/BARCODE`
+example:
+DELETE `localhost:3016/member/5050083516313`
+
+Getting list of products:
+`localhost:3016/products`
+example result:
+```
+[
+  {
+    "name": "Prince Chocolat blé complet",
+    "barcode": "7622210449283",
+    "allergens": "gluten,milk,soybeans"
+  },
+  {
+    "name": "Pain AMERICAN SANDWICH complet",
+    "barcode": "3228857000906",
+    "allergens": "gluten"
+  },
+  {
+    "name": "Biscottes 6 Céréales",
+    "barcode": "3392460480827",
+    "allergens": "gluten,sesame-seeds,avoine"
+  }
+]
+```
+
 
