@@ -1,0 +1,14 @@
+{
+    "version": "0.1",
+    "author":"Krzy100f Kłak",
+
+    "db":{
+        "host":"localhost",
+        "user":"root",
+        "password":"root",
+        "dbname":"foodchecker"
+    },
+    "server":{
+        "port":"3016"
+    }
+}
