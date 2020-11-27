@@ -106,38 +106,21 @@ example result:
     "name": "Adam",
     "can_eat": [
       {
-        "name": "Prince Chocolat blé complet",
-        "barcode": "7622210449283"
+        "name": "Pain AMERICAN SANDWICH complet",
+        "barcode": "3228857000906"
+      },
+      {
+        "name": "Biscottes 6 Céréales",
+        "barcode": "3392460480827"
       }
     ]
   },
   {
     "name": "Albert",
-    "can_eat": [
-      {
-        "name": "Prince Chocolat blé complet",
-        "barcode": "7622210449283"
-      },
-      {
-        "name": "Pain AMERICAN SANDWICH complet",
-        "barcode": "3228857000906"
-      },
-      {
-        "name": "Biscottes 6 Céréales",
-        "barcode": "3392460480827"
-      }
-    ]
+    "can_eat": []
   },
   {
     "name": "Anna",
-    "can_eat": []
-  },
-  {
-    "name": "Chris",
-    "can_eat": []
-  },
-  {
-    "name": "John",
     "can_eat": [
       {
         "name": "Prince Chocolat blé complet",
@@ -154,8 +137,42 @@ example result:
     ]
   },
   {
-    "name": "Tom",
+    "name": "Chris",
+    "can_eat": [
+      {
+        "name": "Prince Chocolat blé complet",
+        "barcode": "7622210449283"
+      },
+      {
+        "name": "Pain AMERICAN SANDWICH complet",
+        "barcode": "3228857000906"
+      },
+      {
+        "name": "Biscottes 6 Céréales",
+        "barcode": "3392460480827"
+      }
+    ]
+  },
+  {
+    "name": "John",
     "can_eat": []
+  },
+  {
+    "name": "Tom",
+    "can_eat": [
+      {
+        "name": "Prince Chocolat blé complet",
+        "barcode": "7622210449283"
+      },
+      {
+        "name": "Pain AMERICAN SANDWICH complet",
+        "barcode": "3228857000906"
+      },
+      {
+        "name": "Biscottes 6 Céréales",
+        "barcode": "3392460480827"
+      }
+    ]
   }
 ]
 ```
