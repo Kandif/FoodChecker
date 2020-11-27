@@ -19,7 +19,7 @@ export class FoodChecker {
         for(let i=0;i<members.length;i++){
             let member:any = {"name": members[i].name, "can_eat":[]}
             for(let j=0;j<products.length;j++){
-                if(!_.isEmpty(_.intersection((members[i].allergens.split(",")), (products[j].allergens.split(","))))){
+                if(_.isEmpty(_.intersection((members[i].allergens.split(",")), (products[j].allergens.split(","))))){
                     let product = {"name":products[j].name, "barcode":products[j].barcode};
                     member["can_eat"].push(product);
                 }
