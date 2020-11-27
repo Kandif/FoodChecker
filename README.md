@@ -95,5 +95,69 @@ example result:
   }
 ]
 ```
+###  Getting list what they can eat
+
+GET `localhost:3016/caneat`
+
+example result:
+```
+[
+  {
+    "name": "Adam",
+    "can_eat": [
+      {
+        "name": "Prince Chocolat blé complet",
+        "barcode": "7622210449283"
+      }
+    ]
+  },
+  {
+    "name": "Albert",
+    "can_eat": [
+      {
+        "name": "Prince Chocolat blé complet",
+        "barcode": "7622210449283"
+      },
+      {
+        "name": "Pain AMERICAN SANDWICH complet",
+        "barcode": "3228857000906"
+      },
+      {
+        "name": "Biscottes 6 Céréales",
+        "barcode": "3392460480827"
+      }
+    ]
+  },
+  {
+    "name": "Anna",
+    "can_eat": []
+  },
+  {
+    "name": "Chris",
+    "can_eat": []
+  },
+  {
+    "name": "John",
+    "can_eat": [
+      {
+        "name": "Prince Chocolat blé complet",
+        "barcode": "7622210449283"
+      },
+      {
+        "name": "Pain AMERICAN SANDWICH complet",
+        "barcode": "3228857000906"
+      },
+      {
+        "name": "Biscottes 6 Céréales",
+        "barcode": "3392460480827"
+      }
+    ]
+  },
+  {
+    "name": "Tom",
+    "can_eat": []
+  }
+]
+```
 
 
